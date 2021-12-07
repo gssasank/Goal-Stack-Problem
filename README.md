@@ -1,4 +1,4 @@
-# Assignment - 4
+# Goal Stack Problem
 
 ## Introduction to Planning Systems
 
