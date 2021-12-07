@@ -29,9 +29,9 @@ In the block world problem, a state is described by a set of predicates, which r
 
 ## Predicates and Operators
 
-<img src="C:\Users\Sasank\AppData\Roaming\Typora\typora-user-images\image-20211111145113549.png" alt="image-20211111145113549" style="zoom: 67%;" />
+<img src="https://github.com/gssasank/Goal-Stack-Problem/blob/main/media/image-20211111145113549.png?raw=true" alt="image-20211111145113549" style="zoom: 67%;" />
 
-<img src="C:\Users\Sasank\AppData\Roaming\Typora\typora-user-images\image-20211111145134055.png" alt="image-20211111145134055" style="zoom:67%;" />
+<img src="https://github.com/gssasank/Goal-Stack-Problem/blob/main/media/image-20211111145134055.png?raw=true" alt="image-20211111145134055" style="zoom:67%;" />
 
 ## Pseudocode
 
