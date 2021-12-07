@@ -1,0 +1,19 @@
+on Y X|on W Z|on_table X|on_table Z|clear Y|clear W|arm_empty
+
+on Z X|on Y W|on_table X|on_table W|clear Z|clear Y|arm_empty
+
+
+
+on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty
+
+on X Z|on Y W|on_table Z|on_table W|clear X|clear Y|arm_empty
+
+
+on Y X|on_table X|on_table Z|on_table W|clear Y|clear Z|clear W|arm_empty
+
+on X Z|on W Y|on_table Z|on_table Y|clear X|clear W|arm_empty
+
+
+on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty
+
+on A C|on D B|on_table C|on_table B|on_table E|clear A|clear E|clear D|arm_empty

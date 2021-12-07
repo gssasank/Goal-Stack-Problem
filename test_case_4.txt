@@ -1,0 +1,203 @@
+ ==================== GOAL STATE PLANNER ====================
+|-----------------------------------------------------------|
+Please enter the start state :-
+on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty
+
+Please enter the goal state :-
+on A C|on D B|on_table C|on_table B|on_table E|clear A|clear E|clear D|arm_empty
+
+
+Entered Start State:- on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Entered Goal State:- on A C|on D B|on_table C|on_table B|on_table E|clear A|clear E|clear D|arm_empty|
+
+
+Planning Starts----------------------------------------------------------------
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|on_table E|clear A|clear E|clear D|arm_empty|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|on_table E|clear A|clear E|clear D|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|on_table E|clear A|clear E|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|on_table E|clear A|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|on_table E|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|putdown E|holding E|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|putdown E|unstack E C|arm_empty|on E C|clear E|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|putdown E|unstack E C|arm_empty|on E C|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|putdown E|unstack E C|arm_empty|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|putdown E|unstack E C|
+
+Current World State :-
+
+ on E C|on D B|on_table A|on_table C|on_table B|clear A|clear E|clear D|arm_empty|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|putdown E|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|holding E|clear C|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|on_table B|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ on A C|on D B|on_table C|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ on A C|on D B|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ on A C|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ stack A C|holding A|clear C|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ stack A C|holding A|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ stack A C|pickup A|arm_empty|on_table A|clear A|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ stack A C|pickup A|arm_empty|on_table A|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ stack A C|pickup A|arm_empty|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ stack A C|pickup A|
+
+Current World State :-
+
+ on D B|on_table A|on_table C|on_table B|clear A|clear D|clear C|arm_empty|on_table E|clear E|
+
+Planning Stack:-
+
+ stack A C|
+
+Current World State :-
+
+ on D B|on_table C|on_table B|clear D|clear C|on_table E|clear E|holding A|
+
+
+Planning Ends------------------------------------------------------------------
+
+ Final state reached:- on D B|on_table C|on_table B|clear D|on_table E|clear E|on A C|clear A|arm_empty|
+
+Plan generated to reach goal state:-
+
+ unstack: E and C
+ putdown: E
+ pickup: A
+ stack: A and C

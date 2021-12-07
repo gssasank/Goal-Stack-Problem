@@ -1,0 +1,295 @@
+ ==================== GOAL STATE PLANNER ====================
+|-----------------------------------------------------------|
+Please enter the start state :-
+on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty
+
+Please enter the goal state :-
+on X Z|on Y W|on_table Z|on_table W|clear X|clear Y|arm_empty
+
+
+Entered Start State:- on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty|
+
+Entered Goal State:- on X Z|on Y W|on_table Z|on_table W|clear X|clear Y|arm_empty|
+
+
+Planning Starts----------------------------------------------------------------
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|on_table W|clear X|clear Y|arm_empty|
+
+Current World State :-
+
+ on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty|
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|on_table W|clear X|clear Y|
+
+Current World State :-
+
+ on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty|
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|on_table W|clear X|
+
+Current World State :-
+
+ on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty|
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|on_table W|unstack Y X|arm_empty|on Y X|clear Y|
+
+Current World State :-
+
+ on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty|
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|on_table W|unstack Y X|arm_empty|on Y X|
+
+Current World State :-
+
+ on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty|
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|on_table W|unstack Y X|arm_empty|
+
+Current World State :-
+
+ on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty|
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|on_table W|unstack Y X|
+
+Current World State :-
+
+ on Y X|on Z W|on_table X|on_table W|clear Y|clear Z|arm_empty|
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|on_table W|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|holding Y|clear X|
+
+Planning Stack:-
+
+ on X Z|on Y W|on_table Z|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|holding Y|clear X|
+
+Planning Stack:-
+
+ on X Z|on Y W|putdown Z|holding Z|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|holding Y|clear X|
+
+Planning Stack:-
+
+ on X Z|on Y W|putdown Z|unstack Z W|arm_empty|on Z W|clear Z|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|holding Y|clear X|
+
+Planning Stack:-
+
+ on X Z|on Y W|putdown Z|unstack Z W|arm_empty|on Z W|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|holding Y|clear X|
+
+Planning Stack:-
+
+ on X Z|on Y W|putdown Z|unstack Z W|arm_empty|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|holding Y|clear X|
+
+Planning Stack:-
+
+ on X Z|on Y W|putdown Z|unstack Z W|putdown Y|holding Y|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|holding Y|clear X|
+
+Planning Stack:-
+
+ on X Z|on Y W|putdown Z|unstack Z W|putdown Y|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|holding Y|clear X|
+
+Planning Stack:-
+
+ on X Z|on Y W|putdown Z|unstack Z W|
+
+Current World State :-
+
+ on Z W|on_table X|on_table W|clear Z|clear X|arm_empty|on_table Y|clear Y|
+
+Planning Stack:-
+
+ on X Z|on Y W|putdown Z|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Y|clear Y|holding Z|clear W|
+
+Planning Stack:-
+
+ on X Z|on Y W|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Y|clear Y|clear W|arm_empty|on_table Z|clear Z|
+
+Planning Stack:-
+
+ on X Z|stack Y W|holding Y|clear W|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Y|clear Y|clear W|arm_empty|on_table Z|clear Z|
+
+Planning Stack:-
+
+ on X Z|stack Y W|holding Y|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Y|clear Y|clear W|arm_empty|on_table Z|clear Z|
+
+Planning Stack:-
+
+ on X Z|stack Y W|pickup Y|arm_empty|on_table Y|clear Y|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Y|clear Y|clear W|arm_empty|on_table Z|clear Z|
+
+Planning Stack:-
+
+ on X Z|stack Y W|pickup Y|arm_empty|on_table Y|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Y|clear Y|clear W|arm_empty|on_table Z|clear Z|
+
+Planning Stack:-
+
+ on X Z|stack Y W|pickup Y|arm_empty|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Y|clear Y|clear W|arm_empty|on_table Z|clear Z|
+
+Planning Stack:-
+
+ on X Z|stack Y W|pickup Y|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Y|clear Y|clear W|arm_empty|on_table Z|clear Z|
+
+Planning Stack:-
+
+ on X Z|stack Y W|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|clear W|on_table Z|clear Z|holding Y|
+
+Planning Stack:-
+
+ on X Z|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Z|clear Z|on Y W|clear Y|arm_empty|
+
+Planning Stack:-
+
+ stack X Z|holding X|clear Z|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Z|clear Z|on Y W|clear Y|arm_empty|
+
+Planning Stack:-
+
+ stack X Z|holding X|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Z|clear Z|on Y W|clear Y|arm_empty|
+
+Planning Stack:-
+
+ stack X Z|pickup X|arm_empty|on_table X|clear X|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Z|clear Z|on Y W|clear Y|arm_empty|
+
+Planning Stack:-
+
+ stack X Z|pickup X|arm_empty|on_table X|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Z|clear Z|on Y W|clear Y|arm_empty|
+
+Planning Stack:-
+
+ stack X Z|pickup X|arm_empty|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Z|clear Z|on Y W|clear Y|arm_empty|
+
+Planning Stack:-
+
+ stack X Z|pickup X|
+
+Current World State :-
+
+ on_table X|on_table W|clear X|on_table Z|clear Z|on Y W|clear Y|arm_empty|
+
+Planning Stack:-
+
+ stack X Z|
+
+Current World State :-
+
+ on_table W|on_table Z|clear Z|on Y W|clear Y|holding X|
+
+
+Planning Ends------------------------------------------------------------------
+
+ Final state reached:- on_table W|on_table Z|on Y W|clear Y|on X Z|clear X|arm_empty|
+
+Plan generated to reach goal state:-
+
+ unstack: Y and X
+ putdown: Y
+ unstack: Z and W
+ putdown: Z
+ pickup: Y
+ stack: Y and W
+ pickup: X
+ stack: X and Z
