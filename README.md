@@ -118,7 +118,6 @@ def putdown(X):
     current_state.append("on_table " + str(X))
     current_state.append("clear " + str(X))
     current_state.remove("holding " + str(X))
-    
 ```
 
 ### Predicates
